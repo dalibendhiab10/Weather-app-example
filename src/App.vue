@@ -1,0 +1,20 @@
+<template>
+  <div id="app">
+    <!-- Other content -->
+    <WeatherWidget />
+  </div>
+</template>
+
+<script>
+import WeatherWidget from './components/WeatherWidget.vue';
+
+export default {
+  components: {
+    WeatherWidget,
+  },
+};
+</script>
+
+<style>
+/* Global styles */
+</style>
